@@ -30,7 +30,7 @@ public class AppFrame extends JFrame implements ActionListener {
         setLayout(null);
 
         // Load the background image in the constructor
-        backgroundImage = new ImageIcon(getClass().getResource("/images/"+"background.jpg")).getImage();
+        backgroundImage = new ImageIcon(getClass().getResource("/images/"+"background2.jpg")).getImage();
 
         compressButton = new JButton("Select File to Compress");
         compressButton.setBounds(40, 200, 200, 50);
